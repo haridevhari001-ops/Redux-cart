@@ -26,7 +26,7 @@ function Home() {
 
 
   const productsPerPage = 10
-  const totalPages = math.ceil(products.length) / productsPerPage
+  const totalPages = math.ceil((products.length) / productsPerPage)
   const endIndex=currentPage*10
   const startIndex=currentPage-10
 
